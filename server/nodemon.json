@@ -1,0 +1,14 @@
+{
+  "watch": [
+    "index.js",
+    "routes.js",
+    "scheduler.js",
+    "models/"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/",
+    "test.js"
+  ],
+  "delay": "200"
+}

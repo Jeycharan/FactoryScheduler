@@ -1,0 +1,23 @@
+{
+  "name": "factory-production-scheduler",
+  "version": "1.0.0",
+  "description": "Factory Production Scheduler (MERN) with sequence-dependent changeovers, machine eligibility, and due dates",
+  "scripts": {
+    "test": "node server/test.js",
+    "seed": "node server/seed.js",
+    "server": "node server/index.js",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js"
+  },
+  "keywords": [
+    "scheduler",
+    "parallel-machines",
+    "mern",
+    "production-planning",
+    "allergen-changeovers"
+  ],
+  "author": "",
+  "license": "ISC"
+}
